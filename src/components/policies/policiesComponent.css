@@ -1,0 +1,306 @@
+
+.policies__screen {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 70%;
+	height: 100vh;
+	overflow-y: scroll;
+	padding-bottom: 1rem;
+}
+
+.policies__screen h2 {
+	text-align: center;
+	color: #433185;
+}
+
+/* Policie Active */
+
+.insurance_card {
+	box-shadow: 0 3px 6px -3px rgba(0,0,0,0.1), 0 1px 16px 2px rgba(0,0,0,0.04),0 8px 12px 1px rgba(0,0,0,0.06);
+	height: 674px;
+	margin-bottom: 2rem;
+	width: 340px;
+}
+
+.insurance_card_header {
+	background-color: #433185;
+	border-radius: 20px;
+}
+
+.card_recommended_container {
+	border-radius: 20px;
+}
+
+.people_badges_wrapper {
+	align-items: center;
+	display: flex !important;
+	padding: .5rem;
+}
+
+.people_badges_container {
+	display: flex;
+
+}
+
+.avatar_img {
+	width: 27px;
+	height: 27px;
+}
+
+.avatar_img:first-of-type {
+	margin-left: 0;
+}
+
+.sales_rating_container p {
+	color: #ffffff;
+	font-size: .7rem;
+	margin-left: .5rem;
+}
+
+.insurance_card_content {
+	padding: .7rem .4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.insurance_card_content .company {
+	text-align: center;
+	color: #433185;
+}
+
+.insurance_card_price_container {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	color: #222b45;
+}
+
+.insurance_card_price_number {
+	align-items: baseline;
+	display: flex;
+	font-size: 30px;
+	font-weight: bold;
+	justify-content: center;
+	margin-right: 4px;
+	line-height: 20px;
+}
+
+.insurance_card_price_sign {
+	font-size: 21px;
+	font-weight: 600;
+	color: #222b45;
+	margin-right: 5px;
+}
+
+.insurance_card_price_description {
+	font-size: 21px;
+	line-height: 0.9;
+}
+
+.insurance_card_fee_description {
+	font-size: 14.4px;
+	font-weight: bold;
+}
+
+.validity_text_container {
+	font-size: 12.6px;
+	font-weight: 500;
+}
+
+.validity_text_container,
+.insurance_card_fee_description {
+	color: #6e6e6f;
+}
+
+.coverages_bars_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.coverages_bars_container .coverages_title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	margin-left: -5px;
+	text-align: center;
+}
+
+.label_bar_container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.coverages_bars_container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+}
+
+.bgzzQK {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4px;
+}
+
+.label_container {
+	font-size: 13px;
+	color: #8993a4;
+	line-height: 1.3;
+	-webkit-letter-spacing: 0.06px;
+	-moz-letter-spacing: 0.06px;
+	-ms-letter-spacing: 0.06px;
+	letter-spacing: 0.06px;
+	width: 100%;
+}
+
+.bar_container {
+
+	width: 249px;
+	height: 34px;
+	padding: 3px;
+	border-radius: 20px;
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #fff;
+	border: 1px solid #e4e9f2;
+	margin-top: 3px;
+}
+
+.bar_level_container {
+	width: 100%;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	height: 100%;
+	margin-right: 3px;
+	font-size: 12px;
+	background-color: #e4e9f2;
+}
+
+.first {
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
+}
+
+.active {
+	background-color: #98e58e;
+}
+
+.third {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.benefits_title {
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	-webkit-letter-spacing: -0.19px;
+	-moz-letter-spacing: -0.19px;
+	-ms-letter-spacing: -0.19px;
+	letter-spacing: -0.19px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.benefits_container {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.benefits_list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.benefits_list li {
+	color: #8993a4;
+	font-size: 14px;
+	text-align: left;
+	margin: .5rem .3rem .2rem 0;
+}
+
+.benefit_item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-right: 52px;
+}
+
+
+.benefit_item img {
+	width: 50px;
+	margin: 0 auto;
+}
+
+.insurance_card_button_container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 10px;
+	min-height: 105px;
+	position: relative;
+	top: 0px;
+}
+
+.insurance_card_button {
+	background-image: linear-gradient(-140deg, #433185, #433185 0, #7159ad);
+	border-color: #433185;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0 7px 15px 0 rgb(0 0 0 / 20%), 0 2px 17px 0 rgb(0 0 0 / 19%);
+	color: #ffffff;
+	display: block;
+	padding: 1rem 1.8rem;
+	width: 85%;
+}

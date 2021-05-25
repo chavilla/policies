@@ -1,0 +1,22 @@
+.policie__item {
+	background-color: rgb(131, 129, 129);
+	border-radius: 5px;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	margin: .6rem 0;
+	padding: .5rem 1rem;
+}
+
+.policie__item .radius {
+	border-radius: 50%;
+	background-color: #ffffff;
+	height: 30px;
+	width: 30px;
+}
+
+.active_radius {
+	background-color: #433185 !important;
+}

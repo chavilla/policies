@@ -1,0 +1,23 @@
+
+/* Header styles */
+
+.header {
+	background-color: #433185
+}
+
+.title {
+	color: #ffffff;
+	margin: 0;
+	padding: 1.2rem;
+}
+
+.subtitle {
+	color: #433185;
+}
+
+.sidebar {
+	height: 100vh;
+	flex-basis: 30%;
+	padding: 0 1rem;
+	overflow-y: scroll !important;
+}
