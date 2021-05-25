@@ -25,3 +25,5 @@ una vez se instalan los módulos se puede inicia la app usando:
 ### `npm start`.
 
 La app se puede ver en la máquina local.
+
+Si lo que quieres es ver el proyecto en un servidor, puede ingresar a https://policieseprezto.netlify.app/
